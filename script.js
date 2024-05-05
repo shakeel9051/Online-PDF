@@ -4,7 +4,7 @@ var height=800;
 var pdfName;
 var fileName='';
 const CreatePDF=document.getElementById('create-pdf');
-
+window.alert("Provide JPEG images only");
 
  encodeImageFileAsURL=(element)=>{
   document.getElementById('input-page').style.display='none';
